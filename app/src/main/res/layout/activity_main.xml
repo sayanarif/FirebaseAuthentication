@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@drawable/firebase"/>
+    <EditText
+        android:id="@+id/edittext1"
+        android:hint="Phone Number"
+        android:layout_marginTop="10dp"
+        android:inputType="phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:text="Get Verification Code"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edittext2"
+        android:hint="Verification Code"
+        android:layout_marginTop="10dp"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn2"
+        android:layout_marginTop="10dp"
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</RelativeLayout>
